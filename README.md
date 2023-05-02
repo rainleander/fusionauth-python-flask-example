@@ -93,4 +93,4 @@ Once again, thank you for your interest in contributing to the FusionAuth Python
 
 ## License
 
-This project is licensed under the Apache 2.0 License.
+This project is licensed under the Apache 2.0 License which means you can freely use, modify, distribute, and even commercially exploit the code, as long as you comply with the terms of the license and include the required copyright notice and disclaimers in any redistributed code.
