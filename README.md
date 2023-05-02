@@ -4,8 +4,8 @@ This example demonstrates how to integrate [FusionAuth](https://fusionauth.io/) 
 
 ## Prerequisites
 
-- Python 3.x
-- FusionAuth installed and configured (either on your local machine or using the cloud version)
+- [Python 3.x](https://www.python.org/downloads/)
+- [FusionAuth installed](https://fusionauth.io/docs/v1/tech/installation-guide/) and configured (either on your local machine or using the cloud version)
 
 ## Installation
 
