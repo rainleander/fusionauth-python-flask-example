@@ -5,9 +5,9 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with a secure secret key
 
 # Replace these with your FusionAuth credentials
-client_id = 'your_client_id'
-client_secret = 'your_client_secret'
-fusionauth_url = 'https://your_fusionauth_url'
+client_id = 'YOU_CLIENT_ID'
+client_secret = 'YOUR_CLIENT_SECRET'
+fusionauth_url = 'https://YOUR_FUSIONAUTH_URL'
 
 @app.route('/')
 def home():
