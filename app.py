@@ -20,6 +20,11 @@ def login():
     authorize_url = f'{fusionauth_url}/oauth2/authorize?client_id={client_id}&response_type=code&redirect_uri=http://localhost:5000/callback'
     return redirect(authorize_url)
 
+@app.route('/logout')
+def logout():
+    session.pop('access_token', None)
+    return redirect(url_for('home'))
+
 @app.route('/callback')
 def callback():
     code = request.args.get('code')
@@ -48,6 +53,7 @@ def profile():
     return f'''
     <h1>Welcome, {user_info["given_name"]} {user_info["family_name"]}</h1>
     <pre>{user_info}</pre>
+    <a href="/logout">Logout</a>
     '''
 
 if __name__ == '__main__':
